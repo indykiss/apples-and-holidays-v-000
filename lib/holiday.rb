@@ -47,7 +47,6 @@ def all_winter_holiday_supplies(holiday_hash)
 
   #  holiday_hash.each do |season, |
 
-
   holiday_supplies << holiday_hash[:winter][:christmas].flatten
   holiday_supplies << holiday_hash[:winter][:new_years].flatten
 
