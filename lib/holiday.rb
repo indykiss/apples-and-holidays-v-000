@@ -71,11 +71,12 @@ def all_supplies_in_holidays(holiday_hash)
 def all_holidays_with_bbq(holiday_hash)
 
   answer = []
-  
+
   holiday_hash.map do |season, holidays|
       holidays.map do |holiday, supplies|
         answer << supplies.include?("BBQ")
-            
+
       end
-    end 
+    end
+    answer
 end
